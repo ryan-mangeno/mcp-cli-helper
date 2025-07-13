@@ -1,7 +1,7 @@
 from subprocess import run, PIPE
 from mcp_server.llm_interface import ask_claude
 
-def handle_messahe(msg):
+def handle_message(msg):
     msg_type = msg.get("type")
 
     if msg_type == "run":
